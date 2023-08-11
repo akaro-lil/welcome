@@ -9,6 +9,7 @@
     --boxcolor: #F2F2F2;
     --footercolor: #333333;
     --textcolor: #FFFFFF;
+    --boxcolor: #F2F2F2;
 }
 /* start navigation bar css */
 .menu {
@@ -56,3 +57,58 @@
     font-size: 19px;
 }
 /* end of home page css */
+/* start of more description css */
+.more {
+    padding: 90px 350px;
+    gap: 40px;
+}
+.more h2 {
+    color: var(--mycolor);
+}
+.more p {
+    font-size: 22px;
+}
+.block {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    gap: 40px;
+    justify-content: center;
+    margin: 70px 0;
+}
+.box1, .box3, .box5 {
+    grid-column: 4/6;
+    padding: 50px 50px;
+    font-size: 20px;
+}
+.box2, .box4, .box6 {
+    grid-column: 9/11;
+    border: 1px solid transparent;
+    width: 500px;
+    padding: 50px 30px;
+    background-color: var(--boxcolor);
+}
+/* end of description css */
+/* start of img css */
+.img img {
+    width: 360px;
+    height: 280px;
+}
+.img {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    gap: 10px;
+}
+.pic1, .pic5 {
+    grid-column: 1/4;
+}
+.pic2, .pic6 {
+    grid-column: 4/7;
+}
+.pic3, .pic7 {
+    grid-column: 7/10;
+}
+.pic4, .pic8 {
+    grid-column: 10/13;
+}
+
+/* end of img css */
