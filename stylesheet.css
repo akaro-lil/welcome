@@ -8,19 +8,51 @@
     --mycolor: #7454DB;
     --boxcolor: #F2F2F2;
     --footercolor: #333333;
+    --textcolor: #FFFFFF;
 }
 /* start navigation bar css */
 .menu {
     display: flex;
     justify-content: right;
     gap: 50px;
-    border-bottom: 1px solid;
     padding: 20px;
 }
 .menu a {
     text-decoration: none;
 }
 .menu a:hover {
-    color: #1A1A1A;
+    color: var(--background-color);
 }
 /* end of navigation bar css */
+/* start of home page css */
+.home {
+    background-color: var(--background-color);
+    height: 650px;
+    position: relative;
+}
+.back img {
+    position: absolute;
+    height: 650px;
+    width: 450px;
+    margin-left: 900px;
+}
+.front-block {
+    border: 1px solid;
+    background-color: var(--mycolor);
+    width: 500px;
+    height: 200px;
+    padding: 40px 30px;
+}
+.front-block p,h1 {
+    padding: 5px;
+    color: var(--textcolor);
+}
+.description {
+    color: var(--textcolor);
+    border: 1px solid;
+    border: none;
+    width: 1000px;
+    padding: 130px 170px ;
+    font-size: 19px;
+}
+/* end of home page css */
