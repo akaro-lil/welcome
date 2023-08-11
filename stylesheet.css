@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --background-color: #1A1A1A;
+    --mycolor: #7454DB;
+    --boxcolor: #F2F2F2;
+    --footercolor: #333333;
+}
+/* start navigation bar css */
+.menu {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    border-bottom: 1px solid;
+    padding: 20px;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #1A1A1A;
+}
+/* end of navigation bar css */
