@@ -39,10 +39,10 @@
     margin-left: 900px;
 }
 .front-block {
-    border: 1px solid;
+    border: 1px solid transparent;
     background-color: var(--mycolor);
-    width: 500px;
-    height: 200px;
+    width: 350px;
+    height: 150px;
     padding: 40px 30px;
 }
 .front-block p,h1 {
@@ -210,3 +210,31 @@
     padding-top: 50px;
 }
 /* end of footer css */
+/* start of responsives css */
+@media only screen and (max-width: 600px) {
+    .menu {
+        justify-content: space-between;
+    }
+    .home {
+        height: 2000px;
+    }
+    .back img {
+        /* margin-left: none; */
+        /* position: none; */
+        display: none;
+    }
+    .description {
+        width: 500px;
+        padding: 50px 50px;
+    }
+    .more {
+        padding: 90px 50px;
+    }
+    .box {
+        grid-column: 2/12;
+    }
+    .pic {
+        grid-column: 2/12;
+    }
+}
+/* end of responsives css */
