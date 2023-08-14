@@ -217,11 +217,12 @@
     }
     .home {
         height: 2000px;
+        position: none;
     }
     .back img {
         /* margin-left: none; */
-        /* position: none; */
-        display: none;
+        position: none;
+        /* display: none; */
     }
     .description {
         width: 500px;
@@ -235,6 +236,14 @@
     }
     .pic {
         grid-column: 2/12;
+    }
+    .design1, .design3 {
+        text-align: left;
+        margin-right: none;
+    }
+    .design2 {
+        margin-left: none;
+        text-align: left;
     }
 }
 /* end of responsives css */
