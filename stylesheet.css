@@ -210,23 +210,23 @@
     padding-top: 50px;
 }
 /* end of footer css */
-/* start of responsives css */
-@media only screen and (max-width: 600px) {
+/* start of mediaquery css */
+@media only screen and (max-width: 600px){
     .menu {
         justify-content: space-between;
+        padding: none;
     }
     .home {
-        height: 2000px;
-        position: none;
-    }
-    .back img {
-        /* margin-left: none; */
-        position: none;
-        /* display: none; */
+        height: 1050px;
     }
     .description {
         width: 500px;
-        padding: 50px 50px;
+        padding: 90px 50px;
+    }
+    .back img {
+        margin: 550px 50px 0 40px;
+        height: 500px;
+        width: 350px;
     }
     .more {
         padding: 90px 50px;
@@ -234,16 +234,52 @@
     .box {
         grid-column: 2/12;
     }
+    .box2, .box4, .box6 {
+        width: 400px;
+    }
+    .img img {
+        width: 420px;
+        height: 300px;
+    }
     .pic {
         grid-column: 2/12;
     }
+    .design {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding: 90px 50px;
+    }
     .design1, .design3 {
-        text-align: left;
-        margin-right: none;
+        margin-right: 60px;
     }
     .design2 {
-        margin-left: none;
-        text-align: left;
+        margin-left: 10px;
+    }
+    .design2 p {
+        width: 350px;
+    }
+    .logo {
+        flex-direction: column;
+        height: 700px;
+        align-items: center;
+    }
+    .logo img {
+        width: 100px;
+        height: 70px;
+    }
+    .register {
+        flex-direction: column;
+        height: 1200px;
+    }
+    .left {
+        width: 350px;
+    }
+    .form {
+        margin-left: 20px;
+    }
+    .form input {
+        width: 400px;
     }
 }
-/* end of responsives css */
+/* end of mediaquery css */
