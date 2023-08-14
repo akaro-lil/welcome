@@ -220,8 +220,8 @@
         height: 1050px;
     }
     .description {
-        width: 500px;
-        padding: 90px 50px;
+        width: 450px;
+        padding: 90px 20px;
     }
     .back img {
         margin: 550px 50px 0 40px;
@@ -238,8 +238,8 @@
         width: 400px;
     }
     .img img {
-        width: 420px;
-        height: 300px;
+        width: 400px;
+        height: 320px;
     }
     .pic {
         grid-column: 2/12;
@@ -279,7 +279,7 @@
         margin-left: 20px;
     }
     .form input {
-        width: 400px;
+        width: 380px;
     }
 }
 /* end of mediaquery css */
