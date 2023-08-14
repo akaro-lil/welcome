@@ -202,3 +202,11 @@
     background-color: var(--mycolor);
 }
 /* end of register css */
+/* start of footer css */
+.footer {
+    height: 100px;
+    background-color: var(--footercolor);
+    text-align: center;
+    padding-top: 50px;
+}
+/* end of footer css */
